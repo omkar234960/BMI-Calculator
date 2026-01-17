@@ -1,0 +1,59 @@
+.Conatiner {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button#Submit {
+  background-color: #007bff;
+  color: white;
+}
+
+button#Submit:hover {
+  background-color: #0056b3;
+}
+
+button#Reload {
+  background-color: #6c757d;
+  color: white;
+}
+
+button#Reload:hover {
+  background-color: #5a6268;
+}
+
+h3 {
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.category {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
